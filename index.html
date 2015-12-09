@@ -16,10 +16,12 @@
     <form>
       <label>
         Text Field:
-        <input ng-model="name" type="text" ss-numericinput />
+        <input type="text" ss-numericinput />
     </form>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.min.js"></script>
     <script src="ss-form.js"></script>
-    <script src="app.js"></script>
+    <script>
+      angular.module('app', ['ss.form']);
+    </script>
   </body>
 </html>
