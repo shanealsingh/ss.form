@@ -9,5 +9,4 @@ AngularJS directive that only allows numbers to be entered inside a input field 
 
 *Usage*
 
-    #!html
     <input ss-numericinput type="text" />
