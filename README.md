@@ -7,6 +7,5 @@ Currently only have one directive, but will upload more after a slight refactor.
 ###numericinput
 AngularJS directive that only allows numbers to be entered inside a input field even when input type is text.
 
-*Usage*
 
     <input ss-numericinput type="text" />
