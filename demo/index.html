@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello</title>
+    <title>ss.form</title>
+    <style>
+      body { padding: 1em; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      p { margin-bottom: 2em; }
+      input { padding: .5em; width: 30%; font-size: 1.3em; }
+    </style>
   </head>
   <body>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.2/angular.min.js"></script>
-    <script src="../src/ss.form.numericinput.js"></script>
-    <script src="app.js"></script>
+    <h1>ss.numericinput</h1>
+    <p>An AngularJS directive that only allows numeric characters even when input type is text.</p>
+    <form class="ng-pristine ng-valid">
+      <label>
+        Text Field:
+        <input type="text" ss-numericinput="">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.min.js"></script>
+    <script src="ss-form.js"></script>
+    <script>
+      angular.module('app', ['ss.form']);
+    </script>
   </body>
 </html>
