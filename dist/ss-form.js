@@ -77,7 +77,10 @@
 })();
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e597ec52b400a3dcc6b51cb5bb258ce6cb5d7e1b
 (function() {
   'use strict';
 
