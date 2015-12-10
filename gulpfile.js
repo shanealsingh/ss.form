@@ -38,11 +38,11 @@ gulp.task('src-js', function () {
      .pipe(uglify())
      .pipe(gulp.dest('./dist'));
 
-  stream.on('end', function() {
-    if(connect) {
-      connect.reload();
-    }
-  });
+  // stream.on('end', function() {
+  //   if(connect) {
+  //     connect.reload();
+  //   }
+  // });
 });
 
 
